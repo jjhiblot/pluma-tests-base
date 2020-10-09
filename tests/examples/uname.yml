@@ -1,0 +1,5 @@
+shell_tests:
+    uname:
+        script: uname -a
+        should_match_regex: ['Linux']
+        timeout: 2

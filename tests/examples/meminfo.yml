@@ -1,0 +1,7 @@
+core_tests:
+    include: [testsuite.memory]
+    exclude: []
+    parameters:
+        testsuite.memory.MemorySize:
+            total_mb: {{total_mem_size}}
+            available_mb: 500

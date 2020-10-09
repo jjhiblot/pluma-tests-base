@@ -1,0 +1,5 @@
+shell_tests:
+    ping_host:
+        script: ping {{HOST_IP}} -w2
+        should_match_regex: ['0% packet loss']
+        timeout: 4
